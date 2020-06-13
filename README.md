@@ -20,8 +20,9 @@ Clone or download this repository to your local machine.
 Navigate to the top-level application directory.
 
     cd emoji-search-master
-Execute the following command to build and run the application.
+Execute the following commands to build and run the application.
 
+    npm install
     ng serve
 
 Open `localhost:4200` in your browser of choice to begin using the application.
