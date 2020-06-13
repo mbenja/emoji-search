@@ -1,4 +1,4 @@
-# emoji search
+# emoji-search
 Emoji searching web application build using Angular.
 
 ![Screen Shot 2020-06-13 at 1 29 59 PM](https://user-images.githubusercontent.com/23458996/84576534-0d10aa00-ad7b-11ea-82dc-417b7b9abb23.jpg)
