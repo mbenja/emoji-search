@@ -1,0 +1,62 @@
+.emoji-item {
+    background-color: var(--bg-blue-1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Dosis', sans-serif;
+    justify-content: space-between;
+    margin: 16px auto;
+    padding: 16px 16px;
+    width: 40%;
+}
+
+.emoji-title {
+    font-size: 64px;
+    margin-right: 32px;
+    text-align: center;
+}
+
+.emoji-details-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.emoji-details-title {
+    background-color: var(--bg-white);
+    border-radius: 4px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 13px;
+    margin: 0px 32px 8px 0px;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.emoji-details-col {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+}
+
+.emoji-detail {
+    font-size: 13px;
+}
+
+.emoji-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.emoji-button {
+    background-color: var(--bg-white);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.emoji-button:hover {
+    background-color: var(--bg-blue-2);
+    color: white;
+    cursor: pointer;
+    transition: 250ms;
+}

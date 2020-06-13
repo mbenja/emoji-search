@@ -1,0 +1,20 @@
+.search-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.search-bar-input {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 16px 16px;
+    width: 50%;
+}
+
+.search-bar-input:focus {
+    outline: none;
+    text-decoration: none;
+}

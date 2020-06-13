@@ -1,0 +1,9 @@
+<div class="search-bar-container">
+    <input
+        #searchValueInput
+        class="search-bar-input"
+        placeholder="Describe an emoji..."
+        [(ngModel)]="searchValue"
+        (input)="onSearchValueChange(searchValueInput.value)"
+    />
+</div>

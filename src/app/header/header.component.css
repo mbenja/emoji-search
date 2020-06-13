@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.header-title {
+    font-size: 42px;
+}
+
+.header-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.github-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.github-container:hover {
+    cursor: pointer;
+}

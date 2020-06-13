@@ -1,0 +1,26 @@
+<div class="emoji-item">
+    <div class="emoji-details-container">
+        <div class="emoji-title">
+            {{emojiItem.emoji}}
+        </div>
+        <div class="emoji-details-col">
+            <div class="emoji-details-title">
+                Category
+            </div>
+            <div class="emoji-detail">
+                {{emojiItem.category}}
+            </div>
+        </div>
+        <div class="emoji-details-col">
+            <div class="emoji-details-title">
+                Description
+            </div>
+            <div class="emoji-detail">
+                {{emojiItem.description}}
+            </div>
+        </div>
+    </div>
+    <div class="emoji-button-container">
+        <button class="emoji-button" (click)="handleClickCopy()">{{copyButtonText}}</button>
+    </div>
+</div>
