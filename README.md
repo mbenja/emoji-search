@@ -1,27 +1,27 @@
-# EmojiSearch
+# emoji search
+Emoji searching web application build using Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+![Screen Shot 2020-06-13 at 1 29 59 PM](https://user-images.githubusercontent.com/23458996/84576534-0d10aa00-ad7b-11ea-82dc-417b7b9abb23.jpg)
+![Screen Shot 2020-06-13 at 1 30 07 PM](https://user-images.githubusercontent.com/23458996/84576530-071ac900-ad7b-11ea-9cb7-f481c6189b3e.jpg)
 
-## Development server
+![Screen Shot 2020-06-13 at 1 30 15 PM](https://user-images.githubusercontent.com/23458996/84576518-f0747200-ad7a-11ea-8983-83968fa8ff04.jpg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ - Angular CLI
+ - NodeJS and NPM
 
-## Build
+## To Run
+Clone or download this repository to your local machine.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    git clone https://github.com/mbenja/emoji-search.git
+    
+Navigate to the top-level application directory.
 
-## Running unit tests
+    cd emoji-search-master
+Execute the following command to build and run the application.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    ng serve
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Open `localhost:4200` in your browser of choice to begin using the application.
